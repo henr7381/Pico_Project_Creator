@@ -1,0 +1,7 @@
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/pioasm.dir
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/edit_cache.dir
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/rebuild_cache.dir
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/list_install_components.dir
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/install.dir
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/install/local.dir
+/home/henr7381/pico/pico-examples-eclipse/pioasm/CMakeFiles/install/strip.dir

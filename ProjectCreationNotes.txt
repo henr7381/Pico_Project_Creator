@@ -1,0 +1,14 @@
+In /home/henr7381/pico:
+
+mkdir <ProjectName>
+cd <ProjectName>
+touch Main.c
+cp ../CMakeLists.txt ./
+cp ../pico-sdk/external/pico_sdk_import.cmake ./
+mkdir build
+cd build
+export PICO_SDK_PATH=../../pico-sdk
+cmake ..
+
+To build:
+make

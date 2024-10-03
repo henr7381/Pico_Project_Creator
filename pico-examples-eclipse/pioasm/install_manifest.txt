@@ -1,0 +1,5 @@
+/home/henr7381/pico/pico-examples-eclipse/pioasm-install/pioasm/pioasm
+/home/henr7381/pico/pico-examples-eclipse/pioasm-install/pioasm/pioasmTargets.cmake
+/home/henr7381/pico/pico-examples-eclipse/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/henr7381/pico/pico-examples-eclipse/pioasm-install/pioasm/pioasmConfig.cmake
+/home/henr7381/pico/pico-examples-eclipse/pioasm-install/pioasm/pioasmConfigVersion.cmake

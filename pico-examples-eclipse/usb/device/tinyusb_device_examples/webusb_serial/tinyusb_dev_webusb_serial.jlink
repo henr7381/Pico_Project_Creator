@@ -1,0 +1,5 @@
+halt
+loadfile /home/henr7381/pico/pico-examples-eclipse/usb/device/tinyusb_device_examples/webusb_serial/tinyusb_dev_webusb_serial.elf
+r
+go
+exit

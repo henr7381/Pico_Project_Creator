@@ -1,0 +1,5 @@
+/home/henr7381/pico/pico-examples-eclipse/_deps/picotool/picotool
+/home/henr7381/pico/pico-examples-eclipse/_deps/picotool/picotoolTargets.cmake
+/home/henr7381/pico/pico-examples-eclipse/_deps/picotool/picotoolTargets-release.cmake
+/home/henr7381/pico/pico-examples-eclipse/_deps/picotool/picotoolConfig.cmake
+/home/henr7381/pico/pico-examples-eclipse/_deps/picotool/picotoolConfigVersion.cmake

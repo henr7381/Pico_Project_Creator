@@ -1,0 +1,5 @@
+halt
+loadfile /home/henr7381/pico/pico-examples-eclipse/usb/device/tinyusb_device_examples/dynamic_configuration/tinyusb_dev_dynamic_configuration.elf
+r
+go
+exit

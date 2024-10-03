@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>picotool-Release@picotool-build</name>
+	<comment></comment>
+	<projects></projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/gmake</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j12</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments/>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/Mbed TLS</name>
+			<type>2</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls</location>
+		</link>
+		<link>
+			<name>[Subprojects]/nlohmann_json</name>
+			<type>2</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/lib/nlohmann_json</location>
+		</link>
+		<link>
+			<name>[Subprojects]/picotool</name>
+			<type>2</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Source Files/data_locs.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-build/data_locs.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Source Files/no_otp.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/no_otp.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Source Files/whereami.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/lib/whereami/whereami.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Source Files/whereami++.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/lib/whereami/whereami++.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] picotool/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Source Files/errors.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/errors/errors.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] errors/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Source Files/elf_file.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/elf/elf_file.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Source Files/elf2uf2.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/elf2uf2/elf2uf2.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] elf2uf2/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/aes.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/aes.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/aesni.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/aesni.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/arc4.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/arc4.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/aria.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/aria.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/asn1parse.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/asn1parse.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/asn1write.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/asn1write.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/base64.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/base64.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/bignum.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/bignum.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/blowfish.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/blowfish.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/camellia.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/camellia.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ccm.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ccm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/chacha20.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/chacha20.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/chachapoly.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/chachapoly.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/cipher.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/cipher.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/cipher_wrap.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/cipher_wrap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/constant_time.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/constant_time.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/cmac.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/cmac.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ctr_drbg.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ctr_drbg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/des.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/des.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/dhm.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/dhm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ecdh.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ecdh.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ecdsa.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ecdsa.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ecjpake.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ecjpake.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ecp.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ecp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ecp_curves.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ecp_curves.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/entropy.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/entropy.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/entropy_poll.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/entropy_poll.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/error.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/error.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/gcm.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/gcm.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/havege.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/havege.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/hkdf.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/hkdf.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/hmac_drbg.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/hmac_drbg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/md.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/md.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/md2.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/md2.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/md4.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/md4.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/md5.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/md5.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/memory_buffer_alloc.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/memory_buffer_alloc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/mps_reader.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/mps_reader.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/mps_trace.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/mps_trace.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/nist_kw.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/nist_kw.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/oid.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/oid.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/padlock.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/padlock.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pem.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pk.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pk.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pk_wrap.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pk_wrap.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pkcs12.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pkcs12.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pkcs5.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pkcs5.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pkparse.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pkparse.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/pkwrite.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pkwrite.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/platform.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/platform.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/platform_util.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/platform_util.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/poly1305.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/poly1305.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_aead.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_aead.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_cipher.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_cipher.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_client.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_client.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_driver_wrappers.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_driver_wrappers.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_ecp.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_ecp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_hash.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_hash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_mac.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_mac.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_rsa.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_rsa.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_se.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_se.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_slot_management.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_slot_management.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_crypto_storage.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_crypto_storage.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/psa_its_file.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/psa_its_file.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/ripemd160.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ripemd160.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/rsa.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/rsa.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/rsa_internal.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/rsa_internal.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/sha1.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/sha1.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/sha256.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/sha256.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/sha512.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/sha512.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/threading.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/threading.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/timing.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/timing.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/version.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/version.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/version_features.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/version_features.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/xtea.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/xtea.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/everest.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/3rdparty/everest/library/everest.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/x25519.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/3rdparty/everest/library/x25519.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Source Files/Hacl_Curve25519_joined.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/3rdparty/everest/library/Hacl_Curve25519_joined.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedcrypto/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/certs.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/certs.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/pkcs11.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/pkcs11.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509_create.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509_create.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509_crl.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509_crl.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509_crt.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509_crt.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509_csr.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509_csr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509write_crt.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509write_crt.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Source Files/x509write_csr.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/x509write_csr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedx509/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/debug.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/debug.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/net_sockets.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/net_sockets.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_cache.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_cache.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_ciphersuites.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_ciphersuites.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_cli.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_cli.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_cookie.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_cookie.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_msg.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_msg.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_srv.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_srv.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_ticket.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_ticket.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_tls.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_tls.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Source Files/ssl_tls13_keys.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-sdk/lib/mbedtls/library/ssl_tls13_keys.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] mbedtls/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Source Files/bintool.cpp</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/bintool/bintool.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Source Files/mbedtls_wrapper.c</name>
+			<type>1</type>
+			<location>/home/henr7381/pico/pico-examples-eclipse/_deps/picotool-src/bintool/mbedtls_wrapper.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] bintool/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
